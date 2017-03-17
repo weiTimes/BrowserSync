@@ -9,9 +9,11 @@
 * --tunnel 可以生成一个外网链接，即使不在同一个局域网下也可以访问并且同步看到页面的修改情况
 * --proxy 设置代理，可以同步访问其它服务器(可运行php等)，并且使用同步功能
 * 可以整合到gulp，达到一个自动化
+* 集成了babel，可以使用ES6语法和JSX格式
 
 ## How to use?
 
-* npm install 安装开发所需的依赖
+* npm install || yarn 安装开发所需的依赖 
 * gulp
+* npm run build 如果使用了ES6语法
 
