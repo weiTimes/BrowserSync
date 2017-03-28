@@ -11,10 +11,4 @@ gulp.task('browser-sync', function() {
 	});
 });
 
-gulp.task('babel', function() {
-	return gulp.src('forest/**/*.js')
-		.pipe(babel())
-		.pipe(gulp.dest('forest/lib'));
-})
-
-gulp.task('default', ['browser-sync', 'babel']);
+gulp.task('default', ['browser-sync']);
