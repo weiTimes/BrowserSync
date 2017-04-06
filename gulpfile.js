@@ -7,7 +7,7 @@ gulp.task('browser-sync', function() {
 		server: {
 			baseDir: './forest/' // 服务的根目录
 		},
-		files: ['forest/**/*.css', 'forest/**/*.html']
+		files: ['forest/**/*.css', 'forest/**/*.html', 'forest/**/*.js']
 	});
 });
 
